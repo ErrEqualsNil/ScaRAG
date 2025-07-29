@@ -1,5 +1,7 @@
-# MERAG
+# MuRAG
 
-Thanks for your attention to our submitting work MERAG <Retrieval with trial-and-error: Optimizing Retrieval-Augmented Generation over Multi-shard Knowledge Bases>
+Thanks for your attention to our submitting work MuRAG <Retrieval with trial-and-error: Optimizing Retrieval-Augmented Generation over Multi-Sourced Knowledge Bases>
 
-The code is currently under organization and pending institutional approval for open-sourcing. It will be made publicly available once finalized.
+The code is currently under organization. Only the core code is provided. 
+
+Executable version will be made publicly available once finalized.
