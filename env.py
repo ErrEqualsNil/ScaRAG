@@ -59,7 +59,7 @@ class Env:
                 self.qc_cache_dict = pickle.load(f)
         else:
             self.qc_cache_dict = {}
-        self.llm = LLM()  # 谨记修改模型！！！
+        self.llm = LLM()
 
         model_path = "data/model_outputs/query_content_evaluator_v2/checkpoint-10000"
         self.tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
