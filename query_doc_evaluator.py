@@ -18,7 +18,6 @@ def train():
         "data/query_content_train_dataset/dataset.jsonl",
         "data/total/popqa_qd_pairs_with_resp.jsonl"
     )
-    # 加载模型和分词器
     model_name = "google-t5/t5-large"
     tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
     model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2, trust_remote_code=True, device_map="cuda:0")
@@ -28,7 +27,6 @@ def train():
         eval_dataset.map(preprocess_data, fn_kwargs={"tokenizer": tokenizer}, batched=True)
     )
 
-    # 设置训练参数
     training_args = TrainingArguments(
         run_name="query_content_matching_llm",
         output_dir="data4/model_outputs/query_content_evaluator",
@@ -66,7 +64,6 @@ def train():
         preprocess_logits_for_metrics=preprocess_logits_for_metrics,
     )
 
-    # 开始训练
     trainer.train()
 
 
