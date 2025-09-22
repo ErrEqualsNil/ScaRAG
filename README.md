@@ -1,4 +1,4 @@
-# MuRAG
+# ScaRAG
 
 Thanks for your attention to our submitting work ScaRAG <Retrieval with trial-and-error: Optimizing RAG over Scattered Knowledge Bases>
 
