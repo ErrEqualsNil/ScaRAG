@@ -1,6 +1,6 @@
 # MuRAG
 
-Thanks for your attention to our submitting work MuRAG <Retrieval with trial-and-error: Optimizing Retrieval-Augmented Generation over Multi-Sourced Knowledge Bases>
+Thanks for your attention to our submitting work ScaRAG <Retrieval with trial-and-error: Optimizing RAG over Scattered Knowledge Bases>
 
 The code is currently under organization. Only the core code is provided. 
 
